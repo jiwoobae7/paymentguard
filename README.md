@@ -10,7 +10,7 @@ No rules. No blocklists. No hardcoded limits. Just coherence.
 
 ## Demo
 
-https://github.com/jiwoobae7/paymentguard/releases/download/v1.0/recording_480.mov
+[▶ Watch the demo](https://github.com/jiwoobae7/paymentguard/releases/tag/v1.0) — agent gets fooled by a poisoned vendor portal; PaymentGuard blocks the fraudulent payment before Stripe is called.
 
 ---
 
