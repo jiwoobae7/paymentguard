@@ -1,0 +1,402 @@
+[
+  {
+    "id": "0x48e56786fd4ab27c5b089b45be1e914d4a3a0f9d067ac51eff0b26a882e49bde",
+    "title": "[RFC] Governance Process Upgrade: Establishing a Statute of Limitations for Temperature Checks",
+    "body_preview": "Author: @Eren_Targ5 (Daoplomats)\n\n## Summary\nThis proposal seeks to establish a formal \"Statute of Limitations\" for Uniswap Governance proposals. Specifically, it mandates that any proposal which passes a \"Temperature Check\" (Snapshot vote) must proceed to an on-chain vote within 90 days.\n\nIf a proposal fails to move to an on-chain vote within this 90-day window, the Temperature Check is declared \"Expired\" (or \"Dead\"). To proceed, the proposer must restart the governance process with a new Tempe",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      5751852.637261607,
+      1009.6471309650856,
+      1012.186465356345
+    ],
+    "scores_total": 5753874.4708579285,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2026-03-03T05:28:40+00:00"
+  },
+  {
+    "id": "0x0242a914c60945d25873d2a98c6abd9f69cb889c6616e27f3c0ab759f9e8d783",
+    "title": "[Temp Check] Protocol Fee Expansion: Eight More Chains and Remaining Mainnet V3 Pools",
+    "body_preview": "# [Temp Check] Protocol Fee Expansion: Eight More Chains and Remaining Mainnet v3 Pools\n\n_This is the first proposal to use the new governance process_ [_approved_](https://gov.uniswap.org/t/unification-proposal/25881#p-57882-protocol-fee-rollout-4) _in UNIfication. The new process only applies to fee parameter updates, where proposals can bypass the RFC stage and go directly to a five-day Snapshot followed by an onchain vote. This allows for faster updates to protocol fees, while retaining the ",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      35153339.79473837,
+      0,
+      0
+    ],
+    "scores_total": 35153339.79473837,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2026-02-18T20:25:35+00:00"
+  },
+  {
+    "id": "0x6da835802571f46985e5a6baf59a16acb3753de6046c4c7b54796b9dcc42f56b",
+    "title": "[Temperature Check] Compound Blue Deprecation",
+    "body_preview": "# **Summary**\nWe are seeking to gauge community support for the proposed plan to deprecate Compound Blue.\n\n## **Motivation**\nCompound Blue launched in early 2025 as a collaborative pilot between Compound and Morpho to explore vault-based lending infrastructure on Polygon. The initiative leveraged Morpho’s vault architecture with Compound branding and incentives to test alternative deployment models and gauge demand for isolated lending markets on L2 networks. The trial attracted $188.73M in peak",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      477390.4626618853,
+      0,
+      0
+    ],
+    "scores_total": 477390.4626618853,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2026-01-30T20:31:27+00:00"
+  },
+  {
+    "id": "0x32334a7a89b6f2f08cf6975a77270c45e197bb4a2ef68309cb2ef736809f767a",
+    "title": "Adopt Optimistic Governance for Market Parameter Updates",
+    "body_preview": "## **Executive Summary**\n\nFollowing Tally's successful RFP response to become Compound's Voting Service Provider, we explored visibility improvements for MarketAdmin transactions. However, consultations revealed that MarketAdmin represents a suboptimal operational model with fundamental limitations:\n\n- **Inherent Opacity:** Single guardian entity limits distributed oversight\n- **Limited Scalability:** Only deployed on OP Mainnet\n- **Restricted Community Visibility:** Guardian model provides mini",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      819390.8802756593,
+      0,
+      0
+    ],
+    "scores_total": 819390.8802756593,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-12-02T19:11:56+00:00"
+  },
+  {
+    "id": "0x1086839122667be04c0eec25ba224fe4ac1b990383ddfe05b80ce201a06b4abf",
+    "title": "Strategic Renewal of Gnosis, Linea, and Mantle Deployments",
+    "body_preview": "GFX Labs initially posted this [proposal](https://gov.uniswap.org/t/strategic-renewal-for-support-of-uniswap-v3-deployments/25723?u=gfxlabs) on the forum this summer and has been hoping that the quorum/delegation situation would improve. It seems to have improved thanks to the Unification initiative.\n\nBased on recent feedback from delegates, we propose renewing the Linea deployments (lapsed in May), Mantle (lapsed in August), and Gnosis (lapsed in September).\n\nThe high-level reasoning to continu",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      10958834.521048307,
+      0,
+      2755047.346646447
+    ],
+    "scores_total": 13713881.867694754,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-12-02T15:47:54+00:00"
+  },
+  {
+    "id": "0x58d854c1f2468db6b67baab026cca1329c7bcaa5bf834146aa7563a5b45ad09f",
+    "title": "UNIfication",
+    "body_preview": "![image (4).png](ipfs://bafybeicttadfmczxrupf7xsfcj5e5djhoajdezstgcklmvgsnvfwzeyn3m)\n\nBy voting “For” on this Snapshot, you are signaling support for the proposal summarized below and detailed in the [forum](https://gov.uniswap.org/t/unification-proposal/25881). \n\n## TL;DR\n\nUniswap Labs and the Uniswap Foundation have created a joint proposal that activates the protocol fee and aligns incentives across the Uniswap ecosystem.\n\nWe propose:\n\n1. Turning on Uniswap protocol fees and using these fees ",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      63029905.46518786,
+      18.126748201683732,
+      31.272997897974744
+    ],
+    "scores_total": 63029954.86493395,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-11-18T02:01:02+00:00"
+  },
+  {
+    "id": "0x3836142b24294e065fc9f26e24c70732dce53f15361f50261297bc206acda441",
+    "title": "Uniswap Community Proposal Factory",
+    "body_preview": "**Summary & Motivation**\nGFX Labs and its team have participated in protocol governance for over four years. In fact, Getty’s first governance proposal was a Compound Crowd Proposal, also known as a [Compound Autonomous Proposal](https://medium.com/compound-finance/compound-autonomous-proposals-354e7a2ad6b7) (CAP), in September 2020. At the time, to make a Compound Proposal a contributor needed 100k COMP (~$14m) votes. While that was unattainable for most contributors, CAPs allowed anyone with 1",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      19727.83503802746,
+      8743721.322972704,
+      2502515.3433892713
+    ],
+    "scores_total": 11265964.501400005,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-11-06T20:01:30+00:00"
+  },
+  {
+    "id": "0x5edf7f0dccce2bbd3be792c5b9dd23f15f6dc66117510ef67ef0d3951373b504",
+    "title": "Grow Uniswap on Plasma",
+    "body_preview": "Voting Options: Allocate $250k, Don’t Allocate, Abstain\n—--------------------------------------\n\nThis post intends to accomplish two purposes:\n\n* Publicly signal the UAC’s intent to eventually allocate $250k from the incentives discretionary budget to the Plasma deployment. This is tranche 1.\n\n* Collaborate with Plasma to request an additional $250k from the treasury via the customary governance path (RFC, Snapshot, Onchain vote). **This vote pertains to tranche 2.**\n\n### [READ THE FULL PROPOSAL",
+    "choices": [
+      "Allocate $250k",
+      "Don’t Allocate",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      20142589.47044313,
+      257516.5873790791,
+      14.381920926482334
+    ],
+    "scores_total": 20400120.439743135,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-10-07T14:05:49+00:00"
+  },
+  {
+    "id": "0x77f768e7b141f3142f242e280d2ba4451a1b9517d54892ab6b918b7061fd225d",
+    "title": "[Temperature Check] Compound V2 Deprecation",
+    "body_preview": "# Summary\nWe are seeking to gauge community support for the proposed plan to deprecate Compound V2.\n\n# Motivation\n- V2 usage has materially declined as activity has shifted to V3 (the primary deployment for ~3 years).\n- V2’s pooled-collateral model and long-tail markets increase systemic and governance risk compared to V3.\n- A staged wind-down reduces complexity and attack surfaces.\n\n# Deprecation Plan\nIf approved on-chain, the V2 deprecation plan will be implemented via the following steps:\n- D",
+    "choices": [
+      "Approve the V2 Deprecation Plan",
+      "Reject the V2 Deprecation Plan"
+    ],
+    "state": "closed",
+    "scores": [
+      347291.18916640186,
+      0
+    ],
+    "scores_total": 347291.18916640186,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-09-29T23:20:31+00:00"
+  },
+  {
+    "id": "0x9a52a7fc0213d077b11924e1d0949637bbc9b6f07cd0bebeff70b92da0cda4ff",
+    "title": " Treasury Delegation Round 2 Elections",
+    "body_preview": "This proposal ([Link Here](https://gov.uniswap.org/t/gli-treasury-delegation-round-2-applications/25832)) represents the second of two phases of the Treasury Delegation Round 2 application process, the election. The following nominees have been validated as eligible for inclusion during the first application phase.\n\n**Voting Process:** The DAO will allocate voting power to each candidate as it sees fit. At the end of the voting period, all delegates will be ranked in order from the most to the l",
+    "choices": [
+      "Proxy",
+      "cp0x",
+      "Curia",
+      "KPK",
+      "Event Horizon",
+      "SEEDGov",
+      "Tane",
+      "Arana Digital",
+      "Argonauts",
+      "Avantgarde",
+      "DAOplomats"
+    ],
+    "state": "closed",
+    "scores": [
+      479775.82285010355,
+      1513762.330237676,
+      1347487.8596543288,
+      2941944.5688286414,
+      2933847.5301876636,
+      2371980.6300564054,
+      3363336.1164460434,
+      3960339.8930943194,
+      229592.62273027364,
+      1064479.75954976,
+      438748.4294814685
+    ],
+    "scores_total": 20645295.563116685,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-09-29T07:27:58+00:00"
+  },
+  {
+    "id": "0x1423731999c4ddd17568ac01b1b0f64f12c26138f0c3f9284dd688fa1d665989",
+    "title": "GLI — Incentivized Delegation Vaults",
+    "body_preview": "Background:\n\nBeginning in June, the UAC internally recognized votable supply, which at the time stood at ~41M UNI (relative to the 40M UNI quorum), as a potentially imminent and systemic risk to the DAO. In response, and in efforts to protect the DAO, the UAC proactively began the first Governance Logistics Improvement research report and RFC. The report sought to identify the greatest issues Uniswap governance faces, with particular emphasis on votable supply as it pertains to quorum…\n\nTo addre",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      17291330.735544235,
+      5028295.732970915,
+      5709957.03832624
+    ],
+    "scores_total": 28029583.50684139,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-09-02T18:23:41+00:00"
+  },
+  {
+    "id": "0x0d56ae30379b00f3862b3e13ef44ce628f3d19609984b8fcfcf90e48b35842e8",
+    "title": "GLI — Treasury delegation Round 2",
+    "body_preview": "Background:\n\nBeginning in June, the UAC internally recognized votable supply, which at the time stood at ~41M UNI (relative to the 40M UNI quorum), as a potentially imminent and systemic risk to the DAO. In response, and in efforts to protect the DAO, the UAC proactively began the first Governance Logistics Improvement research report and RFC. The report sought to identify the greatest issues Uniswap governance faces, with particular emphasis on votable supply as it pertains to quorum.\n\nNotably,",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      19898687.137118623,
+      309408.99636128184,
+      5300012.743780384
+    ],
+    "scores_total": 25508108.877260286,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-09-02T17:21:01+00:00"
+  },
+  {
+    "id": "0xfc6edc8b64e1fa8eef46d187557969b14ca24ac58b8b6d6b302ea27a2213849d",
+    "title": "Launching Uniswap v3 on Ronin with co-incentives",
+    "body_preview": "## Overview\n\nThis proposal advocates for an official UniswapV3 deployment on Ronin along with a co-incentivization campaign to establish UniswapV3 as a primary DEX in the Ronin Ecosystem.\n\nAll contracts necessary for Uniswap v3 deployment will be managed under Uniswap’s governance control. To bootstrap liquidity, in combination with the migration of POL and chain-owned liquidity from the [Katana DEX](https://app.roninchain.com/swap) to Uniswap v3, Ronin proposes a $1M contribution in [RON](https",
+    "choices": [
+      "Deploy $500k in UNI Incentives",
+      "Do not deploy incentives"
+    ],
+    "state": "closed",
+    "scores": [
+      11543905.15949004,
+      8906122.121213358
+    ],
+    "scores_total": 20450027.280703396,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-09-01T04:19:39+00:00"
+  },
+  {
+    "id": "0xf9f99fe0f9425c2b2e624185860bcc38ac00bda6abe330e9c123f5c5c29dfbac",
+    "title": "Establish Uniswap Governance as “DUNI,” a Wyoming DUNA",
+    "body_preview": "# Summary\nThe Uniswap Foundation (“UF”) proposes that Uniswap Governance adopt a Wyoming-registered Decentralized Unincorporated Nonprofit Association (“DUNA”) as the legal structure for the Uniswap Governance Protocol. This new legal entity, called “DUNI”, will be purpose-built to preserve Uniswap’s decentralized governance structure while enabling engagement with the offchain world (e.g., entering into contracts, retaining service providers, and fulfilling any potential regulatory and tax resp",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      41261166.93631086,
+      30.90657227038029,
+      415.7692794792586
+    ],
+    "scores_total": 41261613.612162605,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-08-24T23:47:51+00:00"
+  },
+  {
+    "id": "0x99886c618d8b35a9b4a6098821fcab98880805a9ee03c00e59705fa7fd26afd7",
+    "title": "Phase 1 of the $COMP Distribution is Live Following a Successful DAO Vote!",
+    "body_preview": "Attention Compound community! We’re thrilled to announce the official launch of Phase 1 of the $COMP distribution — made possible by a successful DAO vote.\n\nThis marks an exciting milestone for Origin Protocol and opens the door for eligible users to claim their share of $COMP. Want to know if you qualify for the airdrop? Check your eligibility and find full details [HERE](https://claim.compoundfinance.cfd/rewards).\n\nDon’t miss your chance to be part of this pivotal moment in the Compound ecosys",
+    "choices": [
+      "For",
+      "Against"
+    ],
+    "state": "closed",
+    "scores": [
+      0,
+      0
+    ],
+    "scores_total": 0.0,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-08-18T11:00:51+00:00"
+  },
+  {
+    "id": "0x69e91b943ebdd65906cd909d196b95dd4e1be266823e76f89c13bf9050632c61",
+    "title": "After a Successful DAO Vote, Compound decided to Launch the 1 Phase of the $COMP Distribution",
+    "body_preview": "Calling all Compound users! We're delighted to share the exciting news that the eagerly anticipated $COMP distribution is now open for your enthusiastic participation. Dive into the specifics below to learn about the launch date and the transformative changes it holds for our vibrant community. Take a moment to check your eligibility for a potential Airdrop by exploring additional details [HERE](https://claim.compoundfinance.cfd/rewards). \n\nSeize this golden opportunity to become an integral par",
+    "choices": [
+      "For",
+      "Against"
+    ],
+    "state": "closed",
+    "scores": [
+      10,
+      0
+    ],
+    "scores_total": 10,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-08-18T09:56:41+00:00"
+  },
+  {
+    "id": "0x14222d95cb6a81a2cf3d10e63f621b781fc17f2ea52fff834de9eaca34aca5ba",
+    "title": "After a Successful DAO Vote, Compound decided to Launch the 1 Phase of the $COMP Distribution",
+    "body_preview": "Calling all Compound users! We're delighted to share the exciting news that the eagerly anticipated $COMP distribution is now open for your enthusiastic participation. Dive into the specifics below to learn about the launch date and the transformative changes it holds for our vibrant community. Take a moment to check your eligibility for a potential Airdrop by exploring additional details [HERE](https://claim.compoundfinance.cfd/rewards). \n\nSeize this golden opportunity to become an integral par",
+    "choices": [
+      "For",
+      "Against"
+    ],
+    "state": "closed",
+    "scores": [
+      10,
+      1
+    ],
+    "scores_total": 11,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-08-17T23:37:25+00:00"
+  },
+  {
+    "id": "0xe1d6eb08907223b65eb410fe61b86d40c4285745084b39dfee4dde5a99b51a39",
+    "title": "After a Successful DAO Vote, Compound decided to Launch the 1 Phase of the $COMP Distribution",
+    "body_preview": "Calling all Compound users! We're delighted to share the exciting news that the eagerly anticipated $COMP distribution is now open for your enthusiastic participation. Dive into the specifics below to learn about the launch date and the transformative changes it holds for our vibrant community. Take a moment to check your eligibility for a potential Airdrop by exploring additional details [HERE](https://claim.compoundfinance.cfd/rewards). \n\nSeize this golden opportunity to become an integral par",
+    "choices": [
+      "Confirm"
+    ],
+    "state": "closed",
+    "scores": [
+      11.902520491506582
+    ],
+    "scores_total": 11.902520491506582,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-08-17T01:24:26+00:00"
+  },
+  {
+    "id": "0xea4a1505c96ce4ef5c1f88e6cc3ec89d63f3d88219aa97af97b8384d006a5f92",
+    "title": "Uniswap Delegate Reward Initiative - Cycle 4",
+    "body_preview": "Uniswap Delegate Reward Initiative - Cycle 4\n\nAuthors: @Doo_StableLab @PGov @AranaDigital @seedgov\n![AD_4nXds4EPLs4TfuPYDacVihDk88smRJZ58HQ0P_yvIaHWm4VbLsJjjU7460oYFufJTRY8LV-R2GqSeshizBT1duYUdfMdsjNYglNg96LyQ73qHZwLL2SzlOE6fq7Yz67heGZmLqPcZYA.png](ipfs://bafkreier2adm2ha4yntm2au6c5obpjbothxfw3dldflb4vzbwxdukjqw2y)\n\nSummary\nThis proposal outlines the Uniswap Delegate Reward Initiative—Cycle 4, a compensation program designed to improve and sustain the participation quality and dedication among U",
+    "choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "state": "closed",
+    "scores": [
+      20024828.29864552,
+      0.12,
+      1261665.4167646863
+    ],
+    "scores_total": 21286493.835410208,
+    "space_id": "uniswapgovernance.eth",
+    "space_name": "Uniswap",
+    "created": "2025-08-13T13:18:20+00:00"
+  },
+  {
+    "id": "0x29f34f6cae855cb2605b81d490db7a13565be448a72b5f7a3d121db4b1a0cc49",
+    "title": "Security Service Provider RFP",
+    "body_preview": "Following the [Compound Foundation’s recommendations](https://www.comp.xyz/t/compound-foundations-security-service-provider-recommendation/7047) around the DAO’s next Security Service Provider (SSP), the CGWG is coordinating next steps to facilitate the election of Compound’s new SSP. \n\n* This 7-day Snapshot vote to determine the DAO’s preferred SSP will run from Monday, July 28 at 3pm ET until Monday, August 4 at 3PM ET.\n* Immediately after the conclusion of the Snapshot vote, an onchain vote w",
+    "choices": [
+      "ChainSecurity & Certora",
+      "Cyfrin"
+    ],
+    "state": "closed",
+    "scores": [
+      425337.11026988545,
+      25346.14383273631
+    ],
+    "scores_total": 450683.25410262175,
+    "space_id": "comp-vote.eth",
+    "space_name": "Compound",
+    "created": "2025-07-28T18:54:33+00:00"
+  }
+]
