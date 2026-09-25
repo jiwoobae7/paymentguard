@@ -8,6 +8,12 @@ No rules. No blocklists. No hardcoded limits. Just coherence.
 
 ---
 
+## Demo
+
+https://github.com/jiwoobae7/paymentguard/releases/download/v1.0/recording_480.mov
+
+---
+
 ## The problem
 
 An AI agent is told to renew a SaaS subscription. It visits the vendor portal. The page contains an injected notice:
@@ -155,7 +161,7 @@ curl -X POST https://your-deployment/verify \
 ## Run the demo
 
 ```bash
-git clone https://github.com/your-username/paymentguard
+git clone https://github.com/jiwoobae7/paymentguard
 cd paymentguard
 pip install -r requirements.txt
 cp .env.example .env   # add ANTHROPIC_API_KEY
