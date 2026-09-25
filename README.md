@@ -8,12 +8,6 @@ No rules. No blocklists. No hardcoded limits. Just coherence.
 
 ---
 
-## Demo
-
-[▶ Watch the demo](https://github.com/jiwoobae7/paymentguard/releases/tag/v1.0) — agent gets fooled by a poisoned vendor portal; PaymentGuard blocks the fraudulent payment before Stripe is called.
-
----
-
 ## The problem
 
 An AI agent is told to renew a SaaS subscription. It visits the vendor portal. The page contains an injected notice:
