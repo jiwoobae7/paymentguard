@@ -308,7 +308,7 @@ if __name__ == "__main__":
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,  # set False to hit real Stripe on approvals
+        execute_payment=False,  # set True to hit real Stripe on approvals
     )
 
     run_demo(guard)

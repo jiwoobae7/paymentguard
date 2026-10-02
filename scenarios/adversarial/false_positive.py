@@ -37,7 +37,7 @@ def main() -> dict:
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,
+        execute_payment=False,
     )
 
     # Clean, coherent trace — fully explains why the amount is 3x normal.

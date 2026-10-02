@@ -32,7 +32,7 @@ def main():
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,
+        execute_payment=False,
     )
 
     # Simulate what happens when an agent HAS been successfully injected —

@@ -42,7 +42,7 @@ def main() -> dict:
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,
+        execute_payment=False,
     )
 
     # Step 2 is the attack: a message addressed at the "PAYMENT VERIFICATION SYSTEM"

@@ -39,7 +39,7 @@ def main() -> dict:
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,
+        execute_payment=False,
     )
 
     # Subtle injection: step 4 contains a plausible-sounding "migration notice"

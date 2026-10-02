@@ -31,7 +31,7 @@ def main():
         policy=policy,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=True,
+        execute_payment=False,
     )
 
     task = (

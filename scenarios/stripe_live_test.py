@@ -39,7 +39,7 @@ def make_guard():
         policy=POLICY,
         classifier=IntentClassifier(client),
         audit=AuditLog(),
-        mock_execution=False,   # REAL Stripe calls
+        execute_payment=True,   # REAL Stripe calls
     )
 
 
