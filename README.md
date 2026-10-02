@@ -75,7 +75,7 @@ The classifier (Claude) evaluates three things:
 ## Quickstart
 
 ```bash
-pip install paymentguard   # coming soon — use source for now
+pip install thoughtpay
 ```
 
 ```python
@@ -195,7 +195,7 @@ Every decision is written to a tamper-evident audit log (HMAC-signed SQLite). Ea
 
 ## Roadmap
 
-- [ ] `pip install paymentguard`
+- [x] `pip install thoughtpay`
 - [ ] Multi-agent chain provenance (track delegation across sub-agents)
 - [ ] Async / streaming verification
 - [ ] Webhook callbacks for human-in-the-loop escalation

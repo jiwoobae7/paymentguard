@@ -9,12 +9,14 @@ from pathlib import Path
 from .models import PaymentIntent, IntentVerdict
 
 
-DB_PATH = Path(__file__).parent.parent / "db" / "audit.db"
+def _default_db_path() -> Path:
+    env = os.getenv("PAYMENTGUARD_DB_PATH")
+    return Path(env) if env else Path.cwd() / "db" / "audit.db"
 
 
-def _get_conn() -> sqlite3.Connection:
-    DB_PATH.parent.mkdir(exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
+def _get_conn(db_path: Path) -> sqlite3.Connection:
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     conn.execute("""
         CREATE TABLE IF NOT EXISTS audit_log (
@@ -48,6 +50,9 @@ def _sign(payload: str) -> str:
 
 
 class AuditLog:
+    def __init__(self, db_path: str | Path | None = None):
+        self.db_path = Path(db_path) if db_path is not None else _default_db_path()
+
     def record(self, intent: PaymentIntent, verdict: IntentVerdict) -> str:
         timestamp = datetime.now(timezone.utc).isoformat()
 
@@ -64,7 +69,7 @@ class AuditLog:
 
         signature = _sign(payload)
 
-        conn = _get_conn()
+        conn = _get_conn(self.db_path)
         conn.execute(
             """INSERT INTO audit_log
                (audit_id, timestamp, agent_id, decision, vendor, amount,
@@ -93,7 +98,7 @@ class AuditLog:
         return verdict.audit_id
 
     def fetch_all(self) -> list[dict]:
-        conn = _get_conn()
+        conn = _get_conn(self.db_path)
         rows = conn.execute(
             "SELECT * FROM audit_log ORDER BY timestamp DESC"
         ).fetchall()

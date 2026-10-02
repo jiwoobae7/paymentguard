@@ -22,12 +22,12 @@ class PaymentGuard:
         policy: PaymentPolicy,
         classifier: IntentClassifier,
         audit: AuditLog,
-        mock_execution: bool = True,   # flip to False for real Stripe calls
+        execute_payment: bool = False,  # set True to create real Stripe PaymentIntents on APPROVE
     ):
         self.policy = policy
         self.classifier = classifier
         self.audit = audit
-        self.mock_execution = mock_execution
+        self.execute_payment = execute_payment
 
     def pay(
         self,
@@ -55,7 +55,7 @@ class PaymentGuard:
             self.audit.record(intent, verdict)
             raise PaymentBlocked(verdict)
 
-        if not self.mock_execution:
+        if self.execute_payment:
             stripe_pi_id = self._execute_stripe(intent.payment, intent.agent_id, verdict.audit_id)
             verdict.stripe_payment_intent_id = stripe_pi_id
 

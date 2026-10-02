@@ -14,7 +14,11 @@ Deploy to Railway:
 """
 from __future__ import annotations
 import os, sys
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+# Allow running directly from repo root without installing the package
+_repo_root = os.path.join(os.path.dirname(__file__), "..")
+if _repo_root not in sys.path:
+    sys.path.insert(0, _repo_root)
 
 from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.abspath(__file__)), "../.env"))
@@ -95,7 +99,7 @@ def verify(req: VerifyRequest, x_api_key: str = Header(default=None)):
         policy=policy,
         classifier=_classifier,
         audit=_audit,
-        mock_execution=True,   # API layer never executes — caller does after approval
+        execute_payment=False,  # API layer never executes — caller does after approval
     )
 
     try:

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thoughtpay"
+version = "0.1.0"
+description = "Semantic verification for AI agent payments. Blocks prompt injection before money moves."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["ai", "agents", "payments", "security", "prompt-injection", "langchain", "stripe"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "anthropic>=0.40.0",
+    "pydantic>=2.0.0",
+    "stripe>=7.0.0",
+]
+
+[project.optional-dependencies]
+server = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/jiwoobae7/paymentguard"
+Repository = "https://github.com/jiwoobae7/paymentguard"
+"Bug Tracker" = "https://github.com/jiwoobae7/paymentguard/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["payment_guard"]
